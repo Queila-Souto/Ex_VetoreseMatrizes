@@ -18,7 +18,7 @@ try (Scanner ler = new Scanner(System.in)) {
 	
 	for (int i= 0 ; i<6 ; i++) {
 	
-	System.out.println("Vetor: posição "+ i +" = " + vetor[i]);
+	System.out.println("Vetor: posiÃ§Ã£o "+ i +" = " + vetor[i]);
 	
 		}
 }
