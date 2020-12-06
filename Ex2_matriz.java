@@ -7,6 +7,6 @@ public class Ex2 {
 
 		for (int c=0 ; c<5 ; c++) {
 			for (int l=0 ; l<5 ; l++) {
-				System.out.println("Posição: ["+c+"] ["+l+"] = " + matriz[c][l]);}} // Esse looping é para exibir a  matriz
+				System.out.println("PosiÃ§Ã£o: ["+c+"] ["+l+"] = " + matriz[c][l]);}} // Esse looping Ã© para exibir a  matriz
 }
 }
