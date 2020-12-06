@@ -1,4 +1,4 @@
-// Programa para ler 10 numeros inteiros. Imprimir vetor, maior numero e sua posição.
+// Programa para ler 10 numeros inteiros. Imprimir vetor, maior numero e sua posiÃ§Ã£o.
 
 import java.util.Scanner;
 public class Ex7 {
@@ -13,7 +13,7 @@ public class Ex7 {
 		for ( i=0 ; i<t ; i++) { 
 			System.out.println("Digite um numero");
 			vetor1[i] = ler.nextInt();
-		}// definição de vetor
+		}// definiÃ§Ã£o de vetor
 		
 		System.out.println("========VETOR========== ");
 
@@ -22,7 +22,7 @@ public class Ex7 {
 		}//checagem do maior valor
 		
 		for (i=0; i<t ; i++) { 			
-			System.out.println("POSIÇÃO [" + i + "] = " + vetor1[i]);
+			System.out.println("POSIÃ‡ÃƒO [" + i + "] = " + vetor1[i]);
 		}//impressao do vetor
 		
 		for (i=0; i<t ; i++) { 
@@ -31,7 +31,7 @@ public class Ex7 {
 		} // checagem do indice correpondente ao maior
 		
 		System.out.println("======================== ");
-		System.out.println("O maior valor é " + maior + " e está na posição " + maiorpos );
+		System.out.println("O maior valor Ã© " + maior + " e estÃ¡ na posiÃ§Ã£o " + maiorpos );
 		System.out.println("======================== ");
 	}
 }}
