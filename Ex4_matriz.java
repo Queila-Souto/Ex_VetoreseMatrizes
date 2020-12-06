@@ -25,9 +25,9 @@ public class Ex4 {
 			if (maior == matriz1[c][l]) {
 				posc = c;
 				posl = l; }
-	}} //checando as posições (coluna e linha) do maior valor, que agora está armazenado na variavel 'maior'
+	}} //checando as posiÃ§Ãµes (coluna e linha) do maior valor, que agora estÃ¡ armazenado na variavel 'maior'
 	
-	System.out.println("O maior valor digitado é:");
+	System.out.println("O maior valor digitado Ã©:");
 	System.out.println("Coluna ["+posc+"] , Linha ["+posl+"] = " +maior);
 
 }}}
