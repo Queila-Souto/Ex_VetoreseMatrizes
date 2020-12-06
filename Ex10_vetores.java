@@ -1,4 +1,4 @@
-// programa para ler e armazenar a nota da prova de 15 alunos num vetor. Calcular a média geral.
+// programa para ler e armazenar a nota da prova de 15 alunos num vetor. Calcular a mÃ©dia geral.
 import java.util.Scanner;
 
 public class Ex10 {
@@ -13,12 +13,12 @@ public class Ex10 {
 			for (int i = 0 ; i < t ; i++) {
 				System.out.println("Digite a sua nota");
 				notas[i]= ler.nextDouble();
-				} // Definição do vetor
+				} // DefiniÃ§Ã£o do vetor
 		}
 	
 	//SOMA
 	// optei em fazer as somas das duas primeiras notas fora do loop, para evitar um for encadeado.
-	//Assim o loop partiu da posição seguinte no vetor (posição 2, 3a nota)
+	//Assim o loop partiu da posiÃ§Ã£o seguinte no vetor (posiÃ§Ã£o 2, 3a nota)
 	soma = notas[0]+notas[1];
 	for (int i = 2 ; i < t ; i++) {
 		soma = soma + notas[i];}
@@ -27,6 +27,6 @@ public class Ex10 {
 	resultado = soma / t;
 		
 	System.out.println("=======================" );
-	System.out.println("Média Geral = " + resultado);
+	System.out.println("MÃ©dia Geral = " + resultado);
 }
 }
