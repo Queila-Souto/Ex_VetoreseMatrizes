@@ -13,7 +13,7 @@ public static void main(String[] args) {
 		for (int i=0 ; i < 10; i++) {
 			if(vetor1[i] % 2 == 0) {
 				cont++;	}
-				}//checagem e contagem de numeros pares. A variavel cont está recebendo 1 unidade a cada loop em que o if é verdadeiro.
+				}//checagem e contagem de numeros pares. A variavel cont estÃ¡ recebendo 1 unidade a cada loop em que o if Ã© verdadeiro.
 			System.out.println("quantidade de pares " + cont);
 	}
 	}
