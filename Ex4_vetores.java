@@ -1,4 +1,4 @@
-// Programa para ler um vetor de 8 posições. No final deve somar o valor correspondente as posições X e Y, determinadas pelo usuário.
+// Programa para ler um vetor de 8 posiÃ§Ãµes. No final deve somar o valor correspondente as posiÃ§Ãµes X e Y, determinadas pelo usuÃ¡rio.
 import java.util.Scanner;
 
 public class Ex4 {
@@ -16,18 +16,18 @@ public class Ex4 {
 						} // Definindo vetor
 			
 			System.out.println("===========================================");
-			System.out.println("Digite a posição do vetor");
+			System.out.println("Digite a posiÃ§Ã£o do vetor");
 			x = ler.nextInt();
-			System.out.println("O valor da posição "+ x + " é " + vetor1[x]); // Exibição do valor correspondente a posição x
+			System.out.println("O valor da posiÃ§Ã£o "+ x + " Ã© " + vetor1[x]); // ExibiÃ§Ã£o do valor correspondente a posiÃ§Ã£o x
 			
 			System.out.println("===========================================");
-			System.out.println("Digite a posição do vetor");
+			System.out.println("Digite a posiÃ§Ã£o do vetor");
 			y = ler.nextInt();
-			System.out.println("O valor da posição "+ y + " é " + vetor1[y]); // Exibição do valor correspondente a posição y
+			System.out.println("O valor da posiÃ§Ã£o "+ y + " Ã© " + vetor1[y]); // ExibiÃ§Ã£o do valor correspondente a posiÃ§Ã£o y
 			
 			System.out.println("===========================================");
-			int resultado = vetor1[x] + vetor1[y]; // soma dos valores correspondentes a posição x e y
-			System.out.println("A soma é " + resultado);
+			int resultado = vetor1[x] + vetor1[y]; // soma dos valores correspondentes a posiÃ§Ã£o x e y
+			System.out.println("A soma Ã© " + resultado);
 		}
 
 
