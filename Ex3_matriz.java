@@ -13,7 +13,7 @@ public class Ex3 {
 	
 	for (int c=0 ; c<tc ; c++) {
 		for (int l=0 ; l<tl ; l++) {
-			System.out.println("Posição: ["+c+"] ["+l+"] = " + matriz[c][l]);
+			System.out.println("PosiÃ§Ã£o: ["+c+"] ["+l+"] = " + matriz[c][l]);
 			}} //Exibindo a Matriz
 }
 }
