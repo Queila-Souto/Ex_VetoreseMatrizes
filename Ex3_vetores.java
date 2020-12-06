@@ -1,3 +1,6 @@
+/*Ler um conjunto de numeros reais, armazenando-o em vetor e calcular o quadrado das 
+componentes deste vetor, armazenando o resultado em outro vetor. Os conjuntos tem
+10 elementos cada. Imprimir todos os conjuntos.*/
 import java.util.Scanner;
 
 public class Ex3 {
