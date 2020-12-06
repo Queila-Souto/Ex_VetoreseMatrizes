@@ -11,19 +11,19 @@ public class Ex9 {
 		for (int i = 0 ; i<t ; i++) {
 			System.out.println("Digite um numero par:");
 			teste = ler.nextInt();
-			if (teste % 2 == 0) {  //testamos o valor individualmente, em cada posiÁ„o.
+			if (teste % 2 == 0) {  //testamos o valor individualmente, em cada posi√ß√£o.
 				vetor1[i]=teste;}
 			else {
-				System.out.println("Valor inv·lido. Favor digite novamente");
+				System.out.println("Valor inv√°lido. Favor digite novamente");
 				teste = ler.nextInt(); // A variavel teste ira receber o novo valor 
-				vetor1[i]=teste;} //e atribui-lo a posiÁ„o atual
+				vetor1[i]=teste;} //e atribui-lo a posi√ß√£o atual
 		}
 		
 		System.out.println("_______________________________\n");
 
 		System.out.println(" Vetor em ordem INVERSA: \n");
 		
-		for (int i = t-1 ; i>-1 ; i-- ) { // invertemos o metodo for, para que ele comece partindo da maior posiÁ„o do vetor.
+		for (int i = t-1 ; i>-1 ; i-- ) { // invertemos o metodo for, para que ele comece partindo da maior posi√ß√£o do vetor.
 			
 			System.out.println("========== "+vetor1[i]+" =========="); 
 		}
