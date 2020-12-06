@@ -1,4 +1,4 @@
-//Leia uma matriz 5x5, tambÈm um valor x. O programa dever· fazer uma busca desse valor, escrever a localizaÁ„o ao final ou a mensagem "n„o encontrado".
+//Leia uma matriz 5x5, tamb√©m um valor x. O programa dever√° fazer uma busca desse valor, escrever a localiza√ß√£o ao final ou a mensagem "n√£o encontrado".
 import java.util.Scanner;
 
 public class Ex5 {
@@ -12,11 +12,11 @@ public class Ex5 {
 			
 	for (int c=0 ; c<tc ; c++) {
 		for (int l=0; l<tl ; l++) {
-			System.out.println("Digite um valor para a posiÁ„o [" + c + "] [" + l +"] da matriz:");
+			System.out.println("Digite um valor para a posi√ß√£o [" + c + "] [" + l +"] da matriz:");
 			matriz [c][l] = ler.nextInt();
 			}} //Loop para definir matriz
 	
-	System.out.println("Digite o valor para localizaÁ„o");
+	System.out.println("Digite o valor para localiza√ß√£o");
 	x = ler.nextInt(); //Definindo uma variavel para busca
 
 
@@ -25,13 +25,13 @@ public class Ex5 {
 			if (matriz[c][l] == x) {
 				loc_c = c;
 				loc_l = l;}
-	}} // Loop para checagem e alocaÁ„o da posiÁ„o do valor buscado para a variavel global
+	}} // Loop para checagem e aloca√ß√£o da posi√ß√£o do valor buscado para a variavel global
 		
 System.out.println("_____________________________________________ ");	
 if (matriz[loc_c][loc_l] == x) {
-System.out.println("O valor buscado est· na posiÁ„o ["+loc_c+"] ["+loc_l+"]. ");}
+System.out.println("O valor buscado est√° na posi√ß√£o ["+loc_c+"] ["+loc_l+"]. ");}
 else {
-System.out.println("Valor n„o  localizado");} // ExibiÁ„o do resultado
+System.out.println("Valor n√£o  localizado");} // Exibi√ß√£o do resultado
 		}	
 }
 }
